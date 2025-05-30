@@ -26,3 +26,12 @@ tarefas.unshift('estudar python') // adicionando ao início
 
 console.log(tarefas);
 
+// Etapa 4: Removendo a Primeira Tarefa
+
+console.log(tarefas);
+
+tarefas.shift() // removendo do início
+
+console.log(tarefas);
+
+//
