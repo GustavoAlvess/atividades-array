@@ -77,21 +77,31 @@ console.log(tarefas)
 let novaLista = ['Comprar presente', 'Arrumar a mala' , 'preparar marmita']
 
 tarefas.concat(novaLista) // juntando dois arrays
-
-console.log(tarefas)
+;
+console.log(tarefas);
 
 //  Etapa 10: Transformando as Tarefas
 
-console.log(tarefas)
+console.log(tarefas);
 
 let tarefasPrefixo = tarefas.map(tarefa => `Fazer: ${tarefa}`); // adicionando prefixo com map
 
-console.log(tarefasPrefixo)
-
+console.log(tarefasPrefixo);
+;
 //  Etapa 11: Filtrando Tarefas
 
+console.log(tarefas);
+
+let filtraTarefas = tarefas.filter(tarefa1 => tarefas.length > 15); // filtra tarefas com mais que 15 caracteres
+
+console.log("Tarefas com mais que 15 caracteres:", filtraTarefas);
+
+// Etapa 12: Ordenando as Tarefas
+
 console.log(tarefas)
+;
+let tarefaOrdemAlfabética = tarefas.sort();
 
-let filtraTarefas = tarefas.filter(tarefa1 => tarefas.length > 15) // filtra tarefas com mais que 15 caracteres
+console.log(tarefaOrdemAlfabética)
 
-console.log("Tarefas com mais que 15 caracteres:", filtraTarefas)
+//
