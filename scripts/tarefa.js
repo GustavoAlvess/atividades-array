@@ -59,4 +59,16 @@ console.log(tarefas)
 tarefas.slice(2, 4) // removendo dos indices 2 a 4
 console.log(tarefas)
 
+// Etapa 8: Alterando a Lista
+
+console.log(tarefas)
+
+let tarefaRemovida = tarefas.splice(3,1)
+let tarefaAdicionada = tarefas.splice(3,0,"Aprender inglês")
+
+console.log(tarefas)
+console.log(´Tarefa removida: ${tarefaRemovida}´)
+console.log(´Tarefa Adicionada: ${tarefaAdicionada}´)
+
+
 
