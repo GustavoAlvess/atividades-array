@@ -100,8 +100,15 @@ console.log("Tarefas com mais que 15 caracteres:", filtraTarefas);
 
 console.log(tarefas)
 ;
-let tarefaOrdemAlfabética = tarefas.sort();
+let tarefaOrdemAlfabética = tarefas.sort(); // ordenando
 
 console.log(tarefaOrdemAlfabética)
 
-//
+//Etapa 13: Invertendo a Ordem das Tarefas
+
+console.log(tarefas)
+;
+let tarefaOrdemInvertida = tarefas.reverse(); // invertendo
+
+console.log(tarefaOrdemInvertida)
+
