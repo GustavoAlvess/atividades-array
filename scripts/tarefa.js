@@ -54,3 +54,9 @@ tarefas.join(', ') // transformando em string e separando por virgulas
 
 console.log(tarefas)
 
+// Etapa 7: Extraindo uma Parte da Lista
+
+tarefas.slice(2, 4) // removendo dos indices 2 a 4
+console.log(tarefas)
+
+
