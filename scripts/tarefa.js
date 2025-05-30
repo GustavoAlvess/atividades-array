@@ -9,3 +9,10 @@ tarefas.push('jogar videogame' , ' limpar pc') // adicionando ao array
 console.log(tarefas);
 
 
+// Etapa 2: Removendo a Última Tarefa com .pop
+
+console.log(tarefas);
+
+
+
+
