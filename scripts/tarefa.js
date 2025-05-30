@@ -46,3 +46,11 @@ else{
  //  if para um cindição, se estiver no array, diga que sim, se não, diga que não
 
 
+// Etapa 6: Transformando a Lista em String
+
+console.log(tarefas)
+
+tarefas.join(', ') // transformando em string e separando por virgulas
+
+console.log(tarefas)
+
