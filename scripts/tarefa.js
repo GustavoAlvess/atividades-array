@@ -17,3 +17,12 @@ tarefas.pop() // removendo ultima tarefa
 
 console.log(tarefas);
 
+
+// Etapa 3: Adicionando uma Tarefa no Início
+
+console.log(tarefas);
+
+tarefas.unshift('estudar python') // adicionando ao início
+
+console.log(tarefas);
+
