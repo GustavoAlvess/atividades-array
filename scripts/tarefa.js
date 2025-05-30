@@ -67,8 +67,8 @@ let tarefaRemovida = tarefas.splice(3,1) // removendo item
 let tarefaAdicionada = tarefas.splice(3,0,"Aprender inglês") // adicionando
 
 console.log(tarefas)
-console.log(´Tarefa removida: ${tarefaRemovida}´)
-console.log(´Tarefa Adicionada: ${tarefaAdicionada}´)
+console.log(`Tarefa removida: ${tarefaRemovida}`)
+console.log(`Tarefa Adicionada: ${tarefaAdicionada}`)
 
 // Etapa 9: Concatenando Tarefas
 
@@ -80,3 +80,10 @@ tarefas.concat(novaLista) // juntando dois arrays
 
 console.log(tarefas)
 
+//  Etapa 10: Transformando as Tarefas
+
+console.log(tarefas)
+
+let tarefasPrefixo = tarefas.map(tarefa => `Fazer: ${tarefa}`); // adicionando prefixo com map
+
+console.log(tarefasPrefixo)
