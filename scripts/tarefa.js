@@ -13,6 +13,7 @@ console.log(tarefas);
 
 console.log(tarefas);
 
+tarefas.pop() // removendo ultima tarefa
 
-
+console.log(tarefas);
 
