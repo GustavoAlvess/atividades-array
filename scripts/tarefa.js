@@ -87,3 +87,11 @@ console.log(tarefas)
 let tarefasPrefixo = tarefas.map(tarefa => `Fazer: ${tarefa}`); // adicionando prefixo com map
 
 console.log(tarefasPrefixo)
+
+//  Etapa 11: Filtrando Tarefas
+
+console.log(tarefas)
+
+let filtraTarefas = tarefas.filter(tarefa1 => tarefas.length > 15) // filtra tarefas com mais que 15 caracteres
+
+console.log("Tarefas com mais que 15 caracteres:", filtraTarefas)
