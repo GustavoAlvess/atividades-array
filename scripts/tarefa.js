@@ -34,4 +34,15 @@ tarefas.shift() // removendo do início
 
 console.log(tarefas);
 
-//
+// Etapa 5: Verificando se uma Tarefa Existe
+
+console.log(tarefas);
+
+if ( tarefas.includes('Ir à academia') ) // removendo do início 
+{ console.log('A tarefa "Ir à academia" está na sua lista de tarefas.');}
+else{
+ console.log('A tarefa "Ir à academia" está na sua lista de tarefas.');}
+
+ //  if para um cindição, se estiver no array, diga que sim, se não, diga que não
+
+
